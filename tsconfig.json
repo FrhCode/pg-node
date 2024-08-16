@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "ES2020", // or another target version
+    "module": "commonjs", // Use commonjs for Node.js
+    "sourceMap": true,
+    "outDir": "./dist", // Output directory for compiled JavaScript files
+    "rootDir": "./src", // Root directory of TypeScript files
+    "esModuleInterop": true,
+    "experimentalDecorators": true
+  },
+  "include": ["src/**/*.ts"], // Adjust this to your TypeScript source files
+  "exclude": ["node_modules"]
+}
